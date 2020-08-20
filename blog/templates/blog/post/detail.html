@@ -5,7 +5,8 @@
 {% block content %}  
   <h1>{{ post.title }}</h1>  
   <p class="date">  
-    Published {{ post.publish }} by {{ post.author }}  
+    Published {{ post.publish }} by {{ post.author }}<br>
+    Tags: {{ post.tags.all|join:", " }}
   </p>  
   {{ post.body|linebreaks }}
   <p>
