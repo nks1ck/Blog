@@ -1,15 +1,22 @@
 {% extends "blog/base.html" %}  
-  
-{% block title %}{{ post.title }}{% endblock %}  
-  
-{% block content %}  
-  <h1>{{ post.title }}</h1>  
+
+{% block title %}{{ post.title }}{% endblock %}
+{% block content%}
+    <h1>{{ post.title }}</h1>
   <p class="date">  
     Published {{ post.publish }} by {{ post.author }}<br>
     Tags: {{ post.tags.all|join:", " }}
   </p>  
-  {{ post.body|linebreaks }}
+  {{ post.body|safe }}
   <p>
+  <h2>Similar posts</h2>
+{% for post in similar_posts %}
+    <p>
+        <a href="{{ post.get_absolute_url }}" class="similar">{{ post.title }}</a>
+    </p>
+ {% empty %}
+    There are no similar posts yet.
+{% endfor %}
 </p>
     {% with comments.count as total_comments %}
   <h2>
@@ -39,5 +46,5 @@
 {% empty %}
   <p>There are no comments yet.</p>
 {% endfor %}
-
+{{ endsafe}}
 {% endblock %}
