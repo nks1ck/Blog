@@ -12,6 +12,14 @@ html {
   margin: 0;
 }
 
+.similar {
+    font-size: 24px;
+}
+
+div.form {
+    float: left;
+}
+
 h1 {
     border-bottom: 1px solid lightgrey;
   padding-bottom: 10px;
@@ -26,19 +34,27 @@ h1 {
     background-color: whitesmoke;
 }
 
-#content,
+#content {
+    display: inline-block;
+    float: left;
+    padding: 40px;
+    padding-top: 20px;
+    height: 100%;
+    text-align: justify;
+}
+
 #sidebar {
     display: inline-block;
-  float: left;
-  padding: 20px;
-  height: 100%;
+    float: left;
+    padding: 20px;
+    height: 100%;
 }
 
 #content {
-    width: 70%;
+    width: 75%;
 }
 
 #sidebar {
-    width: 30%;
+    width: 25%;
   background-color: lightgrey;
 }
