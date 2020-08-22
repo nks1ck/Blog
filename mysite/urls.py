@@ -21,7 +21,6 @@ from django.conf.urls.static import static
 
 admin.site.site_header = 'Blog admin panel'
 admin.site.site_title = 'Admin panel'
-admin.site.index_title = 'Admin panel'
 
 
 urlpatterns = [
