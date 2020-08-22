@@ -46,6 +46,11 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+    @property
+    def days_since_creation(self):
+        diff = timezone.now() - self.publish
+        return diff.days
+
 
 class Comment(models.Model):
     post = models.ForeignKey(Post,
