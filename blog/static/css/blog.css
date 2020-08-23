@@ -9,11 +9,35 @@ a {
 body,
 html {
     height: 100%;
-  margin: 0;
+    margin: 0px;
 }
 
 .similar {
     font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 div.form {
@@ -23,6 +47,10 @@ div.form {
 h1 {
     border-bottom: 1px solid lightgrey;
   padding-bottom: 10px;
+}
+
+hr {
+    margin-bottom: 1px;
 }
 
 .date,
@@ -41,7 +69,9 @@ h1 {
     padding-top: 20px;
     height: 100%;
     text-align: justify;
+    color: white;
 }
+
 
 #sidebar {
     display: inline-block;
@@ -52,9 +82,11 @@ h1 {
 
 #content {
     width: 75%;
+    background-color: #333;
 }
 
 #sidebar {
     width: 25%;
-  background-color: lightgrey;
+  background-color: #000;
+    color: white;
 }

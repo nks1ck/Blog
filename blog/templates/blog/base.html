@@ -8,6 +8,13 @@
  <link href="{% static 'css/blog.css' %}" rel="stylesheet">
 </head>
 <body>
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+<hr>
  <div id="content">
   {% block content %}
       {% endblock %}
@@ -26,7 +33,7 @@
   {% for post in most_commented_posts %}
   <li>
     <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
-  </li>
+  </li> <!-- SORRY FOR THIS TEMPLATE, I DONT HAVE ANY EXP IN FRONTEND -->
   {% endfor %}
 </ul>
 </div>
