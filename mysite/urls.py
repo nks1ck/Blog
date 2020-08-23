@@ -24,7 +24,7 @@ admin.site.site_title = 'Admin panel'
 
 
 urlpatterns = [
-    path('', include('blog.urls', namespace='blog')),
+    path('', include('blog.urls', namespace='blog_redirect')),
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls', namespace='blog')),
     path('summernote/', include('django_summernote.urls'))
