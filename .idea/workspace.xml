@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="856b4646-ae68-4730-b1d6-69fb369eecc9" name="Default Changelist" comment="Change title on admin panel">
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="4665ac91-dc0a-4963-b7eb-06c12dfd7f5b" />
+  <component name="ProjectId" id="1gRrf6qxPIA9CWF8FDzjeMCTDCG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="856b4646-ae68-4730-b1d6-69fb369eecc9" name="Default Changelist" comment="" />
+      <created>1598088348973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598088348973</updated>
+      <workItem from="1598088351044" duration="8812000" />
+      <workItem from="1598101837516" duration="11000" />
+      <workItem from="1598142016899" duration="1265000" />
+      <workItem from="1598143302380" duration="2968000" />
+      <workItem from="1598193180495" duration="4109000" />
+      <workItem from="1598206599729" duration="1158000" />
+      <workItem from="1598207831155" duration="13000" />
+      <workItem from="1598207897696" duration="15000" />
+      <workItem from="1598208212076" duration="978000" />
+      <workItem from="1598209338481" duration="20000" />
+      <workItem from="1598209397468" duration="5000" />
+    </task>
+    <task id="LOCAL-00001" summary="Change time zone">
+      <created>1598088893694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598088893694</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change title on admin panel">
+      <created>1598091701004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598091701004</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Delete one title">
+      <created>1598095605902</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598095605902</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added a countdown of days from the day of writing the post in the admin panel">
+      <created>1598095660505</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598095660505</updated>
+    </task>
+    <task id="LOCAL-00005" summary="redirect from &quot;/&quot; to &quot;/blog&quot;">
+      <created>1598144499653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598144499653</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Some frontend">
+      <created>1598146249923</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598146249923</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add RSS">
+      <created>1598194617761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598194617761</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Rename namespace for url">
+      <created>1598197354703</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598197354703</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Change time zone" />
+    <MESSAGE value="Change title on admin panel" />
+    <MESSAGE value="Delete one title" />
+    <MESSAGE value="Added a countdown of days from the day of writing the post in the admin panel" />
+    <MESSAGE value="redirect from &quot;/&quot; to &quot;/blog&quot;" />
+    <MESSAGE value="Some frontend" />
+    <MESSAGE value="Add RSS" />
+    <MESSAGE value="Rename namespace for url" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename namespace for url" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598143318432">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598143318432" />
+    <state x="2313" y="0" key="CommitChangelistDialog2" timestamp="1598094066993">
+      <screen x="1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="2313" y="0" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1598094066993" />
+    <state x="2013" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1598094235967">
+      <screen x="1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="2013" y="93" width="1350" height="638" key="DiffContextDialog/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1598094235967" />
+    <state x="2502" y="114" key="RollbackChangesDialog" timestamp="1598094056856">
+      <screen x="1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="2502" y="114" key="RollbackChangesDialog/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1598094056856" />
+    <state x="2577" y="326" key="VCS.EditChangelistDialog" timestamp="1598094049490">
+      <screen x="1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="2577" y="326" key="VCS.EditChangelistDialog/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1598094049490" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1598197360557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598197360557" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598091703871" />
+    <state x="2362" y="202" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1598095667119" />
+  </component>
+</project>
