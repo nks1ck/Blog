@@ -7,7 +7,9 @@
     Published {{ post.publish }} by {{ post.author }}<br>
     Tags: {{ post.tags.all|join:", " }}
   </p>  
-  {{ post.body|safe }}
+  <div class="detail__post">
+    {{ post.body|safe }}
+  </div>
   <p>
   <h2>Similar posts</h2>
 {% for post in similar_posts %}

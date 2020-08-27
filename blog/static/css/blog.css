@@ -1,6 +1,7 @@
 body {
     margin-left: 50px;
     margin-right: 50px;
+    background-color: bisque;
 }
 
 
@@ -26,8 +27,14 @@ body {
 .header__logo {
     font-size: 30px;
     font-weight: 700;
-    color: #fff;
+    padding-bottom: 5px;
+    color: #551a8b;
+    outline: 0;
     padding-left: 50px;
+}
+
+.logo__link {
+    text-decoration: none;
 }
 
 /* Navigation*/
@@ -41,8 +48,10 @@ body {
     display: inline-block;
     vertical-align: top;
     margin: 0 15px;
+    padding-bottom: 15px;
+    padding-right: 2px;
     position: relative;
-    color: #fff;
+    color: #551a8b;
     text-decoration: none;
     transition: color .1s linear;
 }
@@ -57,7 +66,7 @@ body {
     opacity: 0;
 
     position: absolute;
-    top: 100%;
+    top: 50%;
     left: 0;
     z-index: 1;
 
@@ -80,6 +89,63 @@ body {
 /* Container */
 .content {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1300px;
+    margin-top: 100px;  
+    background-color: cadetblue;
+    padding: 35px;
 }
+
+/* Sidebar */
+
+.sidebar {
+    margin: 0;
+    padding-right: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 25%;
+    background-color: #6B1D0C;
+    position: absolute;
+    right: 0;
+    top: 6%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.stats {
+    position: absolute;
+    top: 130;
+    right: 130;
+    padding-right: 120px;
+}
+
+
+/* Post detail */
+
+/* Footer */
+
+.footer_wrap p {
+    margin:0 auto;
+    padding-top:18px;
+    width:966px;
+    text-align:center;
+    font-size:11px;
+    border-top:1px solid #dedede;
+    }
+
+/* tags */
+
+/* P */
+p {
+    width: 75%;
+    text-align: justify;
+}
+
+p.date {
+    color: #696969;
+}
+
+a {
+    text-align: justify;
+}
+
